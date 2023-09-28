@@ -1,0 +1,90 @@
+body {
+    background-image: url("/material/background.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    size: 45px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+li {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.inside {
+    width: 650px;
+    /* margin-top: 75px;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-top: 30px; */
+    padding-left: 30px;
+    /* padding-right: 30px;
+    padding-bottom: 15px; */
+}
+
+.basic {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 960px;
+    margin-top: 75px;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.article {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 900px;
+    margin-top: 0px;
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-family: cursive, Papyrus;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 20px;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: rgb(250, 135, 195);
+}
+
+a {
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(250, 135, 195);
+}
